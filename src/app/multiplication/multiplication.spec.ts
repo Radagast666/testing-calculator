@@ -1,5 +1,5 @@
 import { multiplication } from "./multiplication"
-//hi
+
 describe('multiplication unit tests', () => {
     
     it('Should mul 2 * 4 = 8', () => {
