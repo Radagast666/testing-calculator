@@ -1,0 +1,34 @@
+<div class="calculator">
+
+    <form>
+    <div class="input-group">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span> 
+    <input id="operator1" [(ngModel)]="operator1" type="number" class="form-control operator1" name="operator1" placeholder="0.0">
+    </div>
+    
+    <div class="input-group">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+    <input id="operator2" [(ngModel)]="operator2" type="number" class="form-control operator2" name="operator2" placeholder="0.0">
+    </div>
+    </form>
+    
+
+
+    <div class="btn-group" role="group" aria-label="...">
+        <button type="button" class="btn btn-default addition-button"(click)="addition()">+</button>
+        <button type="button" class="btn btn-default substraction-button"(click)="substraction()">-</button>
+        <button type="button" class="btn btn-default multiplication-button"(click)="multiplication()">*</button>
+        <button type="button" class="btn btn-default division-button"(click)="division()">/</button>
+        <button type="button" class="btn btn-default sqr-button"(click)="sqr()">(²)</button>
+        <button type="button" class="btn btn-default sqrt-button"(click)="sqrt()">√</button>
+        <button type="button" class="btn btn-default exp-button"(click)="exp()">EXP</button>
+        
+    </div>
+
+
+
+    
+    </div>
+    
+    <span class="result">{{ result }}</span> 
+
