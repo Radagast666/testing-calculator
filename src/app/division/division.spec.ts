@@ -1,4 +1,5 @@
-import { division } from "./division"
+import { division } from "./division";
+
 
 describe('division unit tests', () => {
     
