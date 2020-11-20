@@ -32,3 +32,28 @@
     cursor: pointer;
     color: green;
     } 
+
+    .multiplication-button{
+        cursor: pointer;
+        color: blueviolet;
+    }
+    .division-button{
+        cursor: pointer;
+        color: crimson;
+
+    }
+
+    .sqr-button{
+        cursor: pointer;
+        color:darkgoldenrod;
+    }
+    
+    .exp-button{
+        cursor: pointer;
+        color: darksalmon;
+    }
+
+    .sqrt-button{
+        cursor: pointer;
+        color: indianred;
+    }
