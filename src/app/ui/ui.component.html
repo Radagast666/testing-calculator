@@ -12,12 +12,23 @@
     </div>
     </form>
     
-    <i class="glyphicon glyphicon-plus addition-button"
-    (click)="addition()"></i>
-    
-    <i class="glyphicon glyphicon-minus substraction-button"
-    (click)="substraction()"></i>
+
+
+    <div class="btn-group" role="group" aria-label="...">
+        <button type="button" class="btn btn-default addition-button"(click)="addition()">+</button>
+        <button type="button" class="btn btn-default substraction-button"(click)="substraction()">-</button>
+        <button type="button" class="btn btn-default multiplication-button"(click)="multiplication()">*</button>
+        <button type="button" class="btn btn-default division-button"(click)="division()">/</button>
+        <button type="button" class="btn btn-default sqr-button"(click)="sqr()">(²)</button>
+        <button type="button" class="btn btn-default sqrt-button"(click)="sqrt()">√</button>
+        <button type="button" class="btn btn-default exp-button"(click)="exp()">EXP</button>
+        
+    </div>
+
+
+
     
     </div>
     
     <span class="result">{{ result }}</span> 
+
